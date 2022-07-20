@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Rubik';
+  src:
+    url('../fonts/Rubik-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Rubik';
+}
+
+.col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.heading-large {
+  font-weight: normal;
+  font-size: 5em;
+}
